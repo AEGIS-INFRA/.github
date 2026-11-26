@@ -86,15 +86,15 @@ Android (`com.aegis:aegis-core:x.y.z`) and iOS (`https://github.com/AEGIS-INFRA/
 
 **Parents — install Family Protection**
 
-Available as a Chrome-based extension (Phase 3). **TODO: add store link when published.**
+Available as a Chrome-based extension (Phase 3). 
 
 **Enterprises & schools — managed deployment**
 
-Centralized policy, monitoring, and compliance via AEGIS Enterprise. **TODO: add contact / sign-up link.**
+Centralized policy, monitoring, and compliance via AEGIS Enterprise. 
 
 ## Repositories
 
-> Repo names are placeholders under the `AEGIS-INFRA` org pending the first release.
+> Some Repos remain private untill the first release.
 
 | Repository | Contents | Visibility |
 |------------|----------|-----------|
@@ -115,7 +115,7 @@ Privacy and security are platform-wide design constraints, not features:
 - **Signed, verified modules.** Detection modules are cryptographically signed and verified by SHA-256 before any code runs; a mismatch quarantines the module. Modules are sandboxed and cannot access the network or DOM.
 - **Explainable by default.** Every decision is auditable — score, categories, confidence, and reason.
 
-Details: [Metrics & Monitoring → Privacy](https://github.com/AEGIS-INFRA/.github/wiki/Metrics-and-Monitoring). To report a vulnerability, see [`SECURITY.md`](SECURITY.md). **TODO: add security policy and contact.**
+Details: [Metrics & Monitoring → Privacy](https://github.com/AEGIS-INFRA/.github/wiki/Metrics-and-Monitoring). To report a vulnerability, see [`SECURITY.md`](SECURITY.md). 
 
 ## Documentation
 
@@ -138,7 +138,7 @@ AEGIS is built in the open, and contributions, audits, and issue reports are wel
 
 ## Governance & license
 
-AEGIS follows an open-core model: the core SDK, policy engine, and reference modules are intended for release under an OSI-approved open-source license, with commercial layers built on top. **TODO: confirm license and governance model.**
+AEGIS follows an open-core model: the core SDK, policy engine, and reference modules are intended for release under an OSI-approved open-source license, with commercial layers built on top. 
 
 ---
 
