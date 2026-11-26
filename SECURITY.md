@@ -88,7 +88,7 @@ AEGIS includes detectors for adult and exploitative content. **Never** use real 
 
 ## Recognition
 
-With your permission, we're glad to credit reporters in our advisories and a security acknowledgments list once established. **TODO: acknowledgments page.**
+With your permission, we're glad to credit reporters in our advisories and a security acknowledgments list once established. 
 
 ---
 
