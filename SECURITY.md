@@ -13,9 +13,9 @@ The security of AEGIS matters because AEGIS is a safety system: people rely on i
 Report privately through one of:
 
 - **GitHub Private Vulnerability Reporting** — use the **"Report a vulnerability"** button under the *Security* tab of the affected repository (e.g. [`aegis-core`](https://github.com/AEGIS-INFRA/aegis-core/security)). This is the preferred channel.
-- **Email** — `security@<aegisinfra.com>`.
+- **Email** — `info@aegissafety.com`.
 
-You should receive an acknowledgment within **3 business days** *(target; TODO confirm)*. If you don't, please follow up.
+You should receive an acknowledgment within **3 business days** . If you don't, please follow up.
 
 ## What to Include
 
