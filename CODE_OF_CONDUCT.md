@@ -70,4 +70,4 @@ Decisions can be appealed by contacting the maintainers with a concise descripti
 
 ## Attribution
 
-This Code of Conduct was written for the AEGIS project and is informed by widely adopted open-source community standards and common enforcement-ladder practices. **TODO: confirm the maintainers' enforcement team and contact before first public release.**
+This Code of Conduct was written for the AEGIS project and is informed by widely adopted open-source community standards and common enforcement-ladder practices. 
