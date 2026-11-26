@@ -2,9 +2,9 @@
 
 Thanks for your interest in contributing to **AEGIS** — open AI safety infrastructure for the internet. Contributions of all kinds are welcome: code, detection modules, documentation, research, design, and well-reported bugs.
 
-This guide explains how to get involved and what we expect from contributions. By participating, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). <!-- TODO: add CODE_OF_CONDUCT.md -->
+This guide explains how to get involved and what we expect from contributions. By participating, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-> **Pre-release status.** AEGIS is under active development and most repositories are currently **private**. Some processes below (public issue templates, package publishing, CLA tooling) are not fully in place yet and are marked **TODO**. If you have access and a question this guide doesn't answer, open a discussion or reach a maintainer.
+> **Pre-release status.** AEGIS is under active development and most repositories are currently **private**. Some processes below (public issue templates, package publishing, CLA tooling) are not fully in place yet. If you have access and a question this guide doesn't answer, open a discussion or reach a maintainer.
 
 ---
 
@@ -35,7 +35,7 @@ This guide explains how to get involved and what we expect from contributions. B
 - **Research** — detection techniques, evaluation methodology, bias analysis, adversarial robustness.
 - **Bug reports & feedback** — clear, reproducible issues and real-world integration feedback.
 
-If you're new, look for issues labeled `good first issue` or `help wanted`. **TODO: confirm label taxonomy.**
+If you're new, look for issues labeled `good first issue` or `help wanted`.
 
 ## Where Things Live
 
@@ -58,7 +58,7 @@ Before opening a PR, make sure you're in the right repository — engine logic b
 
 ## Development Setup
 
-> Exact commands depend on the repo; these are the expected basics. **TODO: confirm toolchain versions and scripts per repo.**
+> Exact commands depend on the repo; these are the expected basics. 
 
 **Web SDK / engine (`aegis-js-sdk`, `aegis-core`)**
 ```bash
@@ -77,7 +77,7 @@ npm install
 npm run build           # then load the unpacked build in your browser
 ```
 
-Requirements (TODO: confirm): a current Node.js LTS, npm or yarn, and a Chromium-based browser for extension and ORT-Web testing.
+Requirements : a current Node.js LTS, npm or yarn, and a Chromium-based browser for extension and ORT-Web testing.
 
 ## Development Workflow
 
@@ -90,7 +90,7 @@ Requirements (TODO: confirm): a current Node.js LTS, npm or yarn, and a Chromium
 ## Coding Standards
 
 - **Language & types.** TypeScript with `strict` mode; no `any` without justification. Public APIs must be fully typed.
-- **Style.** Formatting and linting are enforced (Prettier + ESLint). Run `npm run lint` and `npm run format` before pushing. **TODO: confirm config.**
+- **Style.** Formatting and linting are enforced (Prettier + ESLint). Run `npm run lint` and `npm run format` before pushing. 
 - **Naming.** Follow the canonical vocabulary from the wiki — actions are `allow`/`label`/`blur`/`block`/`escalate`/`report`; profiles are `general`/`child_safe`/`student`/`enterprise`/`custom`. Don't reintroduce legacy names (`mask`, `warn`, etc.).
 - **Comments.** Explain *why*, not *what*. Document non-obvious constraints (browser quirks, budgets).
 - **No breaking changes without discussion.** Public API or config-schema changes require an issue and a migration note.
@@ -102,7 +102,7 @@ Tests are required for all behavioral changes. A PR that changes logic without t
 - **Unit tests** for engine logic (extraction, scoring, fusion, thresholding, policy resolution). Policy and scoring are pure functions — test them deterministically.
 - **Browser tests** for anything touching ML inference or the DOM. ORT-Web WASM/WebGPU and Node behave differently — **validate in a real (headless) browser**, not just Node.
 - **No network in tests for local-first paths.** Local-only behavior must be testable offline.
-- **Coverage** should not regress. **TODO: confirm coverage threshold.**
+- **Coverage** should not regress. 
 - Run the full suite (`npm test`) and confirm it passes before opening the PR.
 
 ## Documentation
@@ -140,7 +140,7 @@ PRs that weaken these guarantees will be declined regardless of other merit.
 
 ## Reporting Security Vulnerabilities
 
-**Do not open a public issue for security vulnerabilities.** This includes module signature/verification bypasses, sandbox escapes, privacy leaks, and anything that could be exploited. Follow the process in [`SECURITY.md`](SECURITY.md) and report privately to the maintainers. **TODO: add SECURITY.md and a private contact.**
+**Do not open a public issue for security vulnerabilities.** This includes module signature/verification bypasses, sandbox escapes, privacy leaks, and anything that could be exploited. Follow the process in [`SECURITY.md`](SECURITY.md) and report privately to the maintainers. 
 
 ## Reporting Bugs & Requesting Features
 
@@ -167,7 +167,7 @@ Maintainers review for correctness, architecture fit, safety/privacy, performanc
 
 ## Licensing of Contributions
 
-By contributing, you agree that your contributions are licensed under the project's license. **TODO: confirm the license and whether a CLA or DCO sign-off (`Signed-off-by:` via `git commit -s`) is required.** Do not submit code, data, or model weights you don't have the rights to contribute — this applies especially to module training data.
+By contributing, you agree that your contributions are licensed under the project's license.  Do not submit code, data, or model weights you don't have the rights to contribute — this applies especially to module training data.
 
 ---
 
