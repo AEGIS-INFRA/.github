@@ -1,8 +1,8 @@
 # Security Policy
 
-The security of AEGIS matters because AEGIS is a safety system: people rely on it to protect them — and especially children — from harmful, deceptive, and malicious advertising. A vulnerability here can undermine that protection or compromise the privacy AEGIS is built to preserve. We take reports seriously and appreciate responsible disclosure.
+The security of AEGIS matters because AEGIS is a safety system: people rely on it to protect them  and especially children  from harmful, deceptive, and malicious advertising. A vulnerability here can undermine that protection or compromise the privacy AEGIS is built to preserve. We take reports seriously and appreciate responsible disclosure.
 
-> **Pre-release status.** AEGIS is under active development and most repositories are currently private. Contacts and tooling below are being established and are marked **TODO**.
+> **Pre-release status.** AEGIS is under active development and most repositories are currently private. Contact US for any prerelease contributions. 
 
 ---
 
@@ -67,7 +67,7 @@ If you're unsure whether something is in scope, report it privately and let us d
 
 ## Supported Versions
 
-AEGIS is pre-release; there is no supported stable release yet. Once releases begin, this section will list the versions that receive security updates. **TODO: populate on first release.**
+AEGIS is pre-release; there is no supported stable release yet. Once releases begin, this section will list the versions that receive security updates. 
 
 | Version | Supported |
 |---------|-----------|
